@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.headers {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #f54ea2, #ff7676);;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .header-content {
+    max-width: 100%;
+  }
+  
+  .main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c003e; /* Deep purple for vibrant contrast */
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Updated font family */
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ffe6f0; /* Darker shade for text readability */
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .rules-button {
+    background-color: #212121; /* Tempting vibrant orange */
+    color: pink;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: padding 0.3s ease;
+    position: absolute;
+    right: 20px;
+  }
+  
+  .rules-button:hover {
+    background-color: #000000;
+    padding: 12px 22px; /* Slightly darker orange on hover */
+  }
+  .custom-dialog .MuiPaper-root {
+    width: 800px;
+    max-width: 90%; /* Make it responsive */
+    border-radius: 20px; /* Rounded corners */
+    padding: 50px;
+    background-color: #fdd5e5; /* Light pastel background */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Drop shadow for a 3D effect */
+    border: 4px solid #ff7676; /* Border to match the button color */
+  }
+  
+  .rules-container {
+    text-align: center; /* Center the content */
+  }
+  
+  .rules-heading {
+    font-size: 2.5rem; /* Larger font size for heading */
+    font-weight: bold;
+    color: #2c003e; /* Darker purple for heading */
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .rules-list {
+    font-size: 1.3rem; /* Slightly larger text for the list */
+    color: #333; /* Dark text for readability */
+    list-style-type: decimal;
+    padding-left: 30px; /* Space for the list numbers */
+    text-align: left; /* Align rules to the left for readability */
+    margin-bottom: 20px;
+  }
+  
+  .rules-container ol li {
+    margin-bottom: 15px;
+  }
+  
+  .close-button {
+    background-color: #351501; /* Vibrant orange button */
+    color: white;
+    font-size: 1.2rem; /* Larger button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .close-button:hover {
+    background-color: #ff7a23; /* Darker orange on hover */
+  }
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 2rem;
+    }
+  
+    .tagline {
+      font-size: 1rem;
+    }
+  
+    .rules-button {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+  .search-box {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .search-input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .search-suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .search-suggestion-item:hover {
+    background: #f0f0f0;
+  }
+  
+  
+  

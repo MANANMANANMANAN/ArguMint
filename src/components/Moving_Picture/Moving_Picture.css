@@ -1,0 +1,34 @@
+.rectangle {
+    position: fixed;
+    width: 96%;
+    height: 10px;
+    background-color: #f0f0f0; /* Background color */
+    overflow: visible;
+    border: 2px solid #1f0000;
+    border-radius: 9px;
+  }
+  
+  .picture {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url("image.png");
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 50%; */
+    transition: left 0.1s ease-in-out; /* Smooth movement */
+  }
+  
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow interactions with elements below */
+    z-index: -1; /* Behind the picture */
+    transition: background 0.1s ease-in-out; /* Smooth gradient transition */
+  }
+  

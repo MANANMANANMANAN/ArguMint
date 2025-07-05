@@ -1,0 +1,167 @@
+/* .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .header > a {
+    width: 2vmax;
+    height: 2vmax;
+    margin: 1vmax 4vmax;
+  }
+  .header > img {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+  }
+  .header > a > svg {
+    font-size: 2vmax;
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.445);
+  }
+  
+  .header > a > svg:hover {
+    color: black;
+    transform: scale(1.2);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header > a {
+      width: 8vw;
+      height: 8vw;
+      margin: 2vw 8vw;
+    }
+    .header > a > svg {
+      font-size: 8vw;
+    }
+  } */
+  /* .header {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+}
+
+.left-container {
+    display: flex;
+    align-items: center; 
+    margin-right: auto; 
+}
+
+.header > img {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    margin-right: 10px; 
+}
+.left-container > img {
+  width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.header > .title 
+    font-size: 24px; 
+    font-weight: bold;
+    color: black; 
+    margin-right: 20px;
+}
+
+.icon-container { 
+    display: flex; 
+    justify-content: center;
+}
+
+.icon-container > a {
+    width: 2vmax;
+    height: 2vmax;
+    margin: 1vmax 4vmax;
+} */
+
+/* .icon-container > a > svg {
+    font-size: 2vmax;
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.445);
+}
+
+.icon-container > a > svg:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+    .icon-container > a {
+        width: 8vw;
+        height: 8vw;
+        margin: 2vw 8vw;
+    }
+    .icon-container > a > svg {
+        font-size: 8vw;
+    }
+}  */
+.header {
+  display: flex;
+  align-items: center;
+  position: relative; /* To allow absolute positioning of icon container */
+  height: 70px; /* Adjust header height as needed */
+  padding: 10px;
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; /* Add space from the left */
+}
+
+.header > img {
+  width: 65px;
+  height: 65px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.header > .title {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.icon-container {
+  position: absolute; /* To place it in the middle of the header */
+  left: 50%; /* Start at the middle of the screen */
+  transform: translateX(-50%); /* Center the container by shifting it left */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container > a {
+  width: 5vmax;
+  height: 2vmax;
+  margin: 0 2vmax;
+}
+.title {
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.icon-container > a > svg {
+  font-size: 2vmax;
+  transition: all 0.5s;
+  color: rgba(0, 0, 0, 0.445);
+}
+
+.icon-container > a > svg:hover {
+  color: black;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+  .icon-container > a {
+      width: 8vw;
+      height: 8vw;
+      margin: 2vw;
+  }
+  .icon-container > a > svg {
+      font-size: 8vw;
+  }
+}

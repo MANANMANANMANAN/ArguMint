@@ -1,0 +1,68 @@
+/* Leaderboard Dialog Styles */
+.leaderboard-dialog {
+    background-color: #2d033b; /* Dark purple background */
+    color: #ffffff;
+    border-radius: 10px;
+    width: 32vw; /* Responsive width */
+    height: 80vh; /* Responsive height */
+    margin: auto;
+    border-radius: 20px;
+    /* background: url("./back.png") no-repeat center center;
+    background-size: cover; */
+}
+
+.leaderboard-title {
+    text-align: center;
+    font-size: 2vw; /* Responsive font size */
+    color: #810181; /* Light pink color */
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    overflow-y: scroll;
+}
+
+.leaderboard-content {
+    padding: 10px;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color: #ffffff;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    padding: 12px 15px;
+    border: 1px solid #f9d4f9; /* Pink border for better contrast */
+}
+
+.leaderboard-table th {
+    background-color: #2b002b; /* Darker purple for header */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.leaderboard-table tr:nth-child(odd) {
+    background-color: #3f0d49; /* Slightly lighter purple for rows */
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background-color: #2d033b; /* Dark purple for alternate rows */
+}
+
+.leaderboard-table tr:hover {
+    background-color: #5a1e6e; /* Highlight on hover */
+    color: #ffffff; /* Ensure text remains visible */
+}
+
+.leaderboard-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f9d4f9; /* Pink border for avatars */
+}
+
+  
